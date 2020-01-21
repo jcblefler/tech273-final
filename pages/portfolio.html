@@ -1,0 +1,151 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Portfolio</title>
+		<meta name="description" content="Portfolio Page, contains sample work and descriptions."/>
+
+<script src="../js/jquery-3.4.1.js"></script>
+	<script src="../js/jquery.cycle2.js"></script>
+	<script src="../js/jquery.cycle2.center.js"></script>
+	<link rel="stylesheet" href="../css/index.css" type="text/css">
+<!-- Social Media Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	</head>
+
+<body id="portfolio">
+  <nav class="outer-col-1 navbar">
+			<img src="../images/JL logo.png" alt="JL logos" >
+				
+			<ul class="nav-links">
+			  <li class="nav-item"><a href="../index.html">Home</a></li>
+			  <li class="nav-item"><a href="about.html">About</a></li>
+				<li class="nav-item"><a href="portfolio.html">Portfolio</a></li>
+				<li class="nav-item"><a href="resume.html">Resume</a></li>
+			  <li class="nav-item"><a href="contact.html">Contact</a></li>
+			</ul>
+	</nav>
+  <div class="outer-col-2">
+  	<header></header>
+    <div class="inner-row">
+      <div class="inner-col">
+    	<article>
+			<h1>Android and Web Development</h1>
+			<br/>
+			<div class="row">
+			<div class="column">
+			  <div class="left-column slideshow">
+				<div class="cycle-slideshow"
+				data-cycle-fx="scrollHorz"
+				data-cycle-timeout="5000"
+				data-cycle-prev="#prev"
+				data-cycle-next="#next"
+				>
+					<img src="../images/shush.png" alt="Shush Android App">
+					<img src="../images/tic.png" alt="TicTacToe Android App">
+					<img src="../images/dotty.png" alt="Dotty Android App">
+				</div>
+
+				<div class="slideshow-buttons">
+					<a href="#" id="prev"><button>Prev</button></a> 
+					<a href="#" id="next"><button>Next</button></a>
+				</div>
+				</div>
+				</div>
+				<div class="column">
+				<div class="right-column">
+					<h3>Android Development</h3>
+					<p>I recently completed a course on mobile development focusing on Android. Some of the applications I completed include:</p>
+					<dl>
+						<dt>Shush</dt>
+						<dd>Users create geofences which monitor the user's location and turn the phones volume to requested setting.</dd>
+						<dt>Tic Tac Toe</dt>
+						<dd>Classic game of Tic Tac Toe between two users.</dd>
+						<dt>Dotty</dt>
+						<dd>Connect matching colors to increase the score.</dd>
+					</dl>
+				</div>
+				</div>
+			</div>
+			<br>
+			<h2>Web Development</h2>
+		  <div class="row">
+			<div class="column">
+			  <div class="left-column">
+				  <img id="samazon" src="../images/samazon.jpg" alt="Samazon Website">
+				</div>	  
+			  </div>
+			<div class="column">
+			  <div class="right-column">
+				  <h3>Samazon</h3>
+				  <p>Client-server application which stores and displays products. Users view products and are able to create account or login to already existing account. Application is created using frameworks including Spring, JPA, and Thymeleaf to dynamically change what is displayed depending on currently logged- in user’s information. </p>
+				  <p><a href="https://warm-fjord-29917.herokuapp.com/" target="_blank">Visit Site</a></p>
+				</div>	  
+			  </div>
+		  </div>
+			<br>
+		<div class="row">
+			<div class="column">
+			  <div class="left-column">
+				  <img id="ripple" src="../images/ripple.jpg" alt="Samazon Website">
+				</div>	  
+			  </div>
+			<div class="column">
+			  <div class="right-column">
+				  <h3>Ripple</h3>
+				  <p>Client-server application which displays a feed of messages created by users. This application incorporates frameworks including Spring, JPA, and Thymeleaf. Users are able to: Create and post messages, Read other users’ messages, Follow other users, See who else is following current user, Option to view only messages created by current user. Using currently logged in user’s information, application will alter to reflect user’s content.
+</p>
+				  <p><a href="https://warm-reaches-29739.herokuapp.com/" target="_blank">Visit Site</a></p>
+				</div>	  
+			  </div>
+		  </div>		  
+		  </article>
+  		
+    <footer>
+      <div class="footer-main">
+
+
+        <div class="footer-left">
+          <img id="logo" class="footer-logo" src="../images/JL logo.png" alt="JL logo" height="50px" width="50px"/>
+          <br>
+          <a href="https://www.facebook.com/jacob.lefler.9" target="_blank" alt="Facebook icon" class="fa fa-facebook fa-2x"></a>
+          <a href="https://www.linkedin.com/in/jacob-lefler" target="_blank" alt="Linkedin icon" class="fa fa-linkedin fa-2x"></a>
+          <a href="mailto:jcb.lefler@gmail.com" alt="Email icon" class="fa fa-envelope fa-2x"></a>
+          <a href="https://github.com/jcblefler" target="_blank" alt="Github icon" class="fa fa-github fa-2x"></a>
+        </div>
+
+        <div class="footer-right">
+          <p>Contact</p>
+          <p>Jacob Lefler</p>
+          <p class="myemail">jcb.lefler@gmail.com</p>
+        </div>
+      </div>
+	</footer>
+      </div>
+    	<aside>
+			<h3>Places to Find Me</h3>
+        <ul>
+          <li><a href="https://github.com/jcblefler" target="_blank" alt="Github icon" class="fa fa-github fa-2x">  Github</a></li>
+          <li><a href="https://www.linkedin.com/in/jacob-lefler" target="_blank" alt="Linkedin icon" class="fa fa-linkedin fa-2x">  Linkedin</a></li>
+          <li><a href="mailto:jcb.lefler@gmail.com" alt="Email icon" class="fa fa-envelope fa-2x">  Email</a></li>
+          <li><a href="https://www.facebook.com/jacob.lefler.9" target="_blank" alt="Facebook icon" class="fa fa-facebook fa-2x">  Facebook</a></li>
+        </ul>
+			
+			<br />
+			
+			<h3>Temperature Converter</h3>
+			<label for="tInput">Temperature in F&#176;: </label>
+			<input type="text" id="tInput" name="TempInput" placeholder="Enter Temp">
+			<button id="calc">Calculate</button>
+			<br />
+			<span id="results">_</span><span> C&#176;</span>
+		
+		</aside>
+    </div>
+  </div>
+	
+	
+	<script src="../js/tempCalc.js"></script>
+</body>
+</html>
